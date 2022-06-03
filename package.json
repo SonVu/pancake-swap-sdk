@@ -54,5 +54,8 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "@SonVu:registry": "https://npm.pkg.github.com"
   }
 }
