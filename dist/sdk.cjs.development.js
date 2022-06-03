@@ -372,7 +372,9 @@ function Currency(decimals, symbol, name) {
  */
 
 Currency.ETHER = /*#__PURE__*/new Currency(18, 'BNB', 'BNB');
+Currency.MATIC = /*#__PURE__*/new Currency(18, 'MATIC', 'MATIC');
 var ETHER = Currency.ETHER;
+var MATIC = Currency.MATIC;
 
 var _WETH;
 /**
@@ -2328,6 +2330,7 @@ exports.INIT_CODE_HASH = INIT_CODE_HASH;
 exports.INIT_CODE_HASH_MAP = INIT_CODE_HASH_MAP;
 exports.InsufficientInputAmountError = InsufficientInputAmountError;
 exports.InsufficientReservesError = InsufficientReservesError;
+exports.MATIC = MATIC;
 exports.MINIMUM_LIQUIDITY = MINIMUM_LIQUIDITY;
 exports.Pair = Pair;
 exports.Percent = Percent;
@@ -2341,4 +2344,4 @@ exports.WETH = WETH;
 exports.currencyEquals = currencyEquals;
 exports.inputOutputComparator = inputOutputComparator;
 exports.tradeComparator = tradeComparator;
-//# sourceMappingURL=pancake-swap-sdk.cjs.development.js.map
+//# sourceMappingURL=sdk.cjs.development.js.map

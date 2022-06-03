@@ -372,7 +372,9 @@ function Currency(decimals, symbol, name) {
  */
 
 Currency.ETHER = /*#__PURE__*/new Currency(18, 'BNB', 'BNB');
+Currency.MATIC = /*#__PURE__*/new Currency(18, 'MATIC', 'MATIC');
 var ETHER = Currency.ETHER;
+var MATIC = Currency.MATIC;
 
 var _WETH;
 /**
@@ -2316,5 +2318,5 @@ var Fetcher = /*#__PURE__*/function () {
   return Fetcher;
 }();
 
-export { ChainId, Currency, CurrencyAmount, ETHER, FACTORY_ADDRESS, FACTORY_ADDRESS_MAP, Fetcher, Fraction, INIT_CODE_HASH, INIT_CODE_HASH_MAP, InsufficientInputAmountError, InsufficientReservesError, MINIMUM_LIQUIDITY, Pair, Percent, Price, Rounding, Route, Router, Token, TokenAmount, Trade, TradeType, WETH, currencyEquals, inputOutputComparator, tradeComparator };
-//# sourceMappingURL=pancake-swap-sdk.esm.js.map
+export { ChainId, Currency, CurrencyAmount, ETHER, FACTORY_ADDRESS, FACTORY_ADDRESS_MAP, Fetcher, Fraction, INIT_CODE_HASH, INIT_CODE_HASH_MAP, InsufficientInputAmountError, InsufficientReservesError, MATIC, MINIMUM_LIQUIDITY, Pair, Percent, Price, Rounding, Route, Router, Token, TokenAmount, Trade, TradeType, WETH, currencyEquals, inputOutputComparator, tradeComparator };
+//# sourceMappingURL=sdk.esm.js.map
