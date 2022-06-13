@@ -16,7 +16,7 @@ export class Currency {
   /**
    * The only instance of the base class `Currency`.
    */
-  public static readonly ETHER: Currency = new Currency(18, 'BNB', 'BNB')
+  public static readonly ETHER: Currency = new Currency(18, 'MATIC', 'BNB')
   public static readonly MATIC: Currency = new Currency(18, 'MATIC', 'MATIC')
 
   /**
